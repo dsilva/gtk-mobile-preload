@@ -1,3 +1,8 @@
+/* from http://weblog.haskell.cz/pivnik/building-a-shared-library-in-haskell/
+ * see also http://blog.well-typed.com/2009/05/buildings-plugins-as-haskell-shared-libs/
+ * see also http://www.haskell.org/ghc/docs/latest/html/users_guide/using-shared-libs.html#id2944479
+ */
+
 #define CAT(a,b) XCAT(a,b)
 #define XCAT(a,b) a ## b
 #define STR(a) XSTR(a)

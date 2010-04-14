@@ -1,3 +1,5 @@
+# Copyright 2010 Daniel Silva
+# Distributed under the AGPL v3.  See LICENSE file.
 
 all: libmobilegtk.so
 

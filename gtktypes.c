@@ -1,3 +1,6 @@
+/* Copyright 2010 Daniel Silva */
+/* Distributed under the AGPL v3.  See LICENSE file. */
+
 #include <glib-object.h>
 
 GObjectClass* gobj_get_class(GObject* obj) { return G_OBJECT_GET_CLASS(obj); }

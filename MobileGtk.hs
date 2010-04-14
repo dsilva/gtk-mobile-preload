@@ -1,5 +1,9 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 
+{- Copyright 2010 Daniel Silva
+   Distributed under the AGPL v3.  See LICENSE file.
+-}
+
 -- ghc --make -dynamic -shared -fPIC MobileGtk.hs -o libmobilegtk.so  /usr/lib/ghc-6.12.1/libHSrts-ghc6.12.1.so -optl-Wl,-rpath,/usr/lib/ghc-6.12.1/ -optc '-DMODULE=MobileGtk' init.c
 
 -- needs libgtk-x11-2.0.so
