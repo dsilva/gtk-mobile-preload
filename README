@@ -1,0 +1,10 @@
+gtk-mobile-preload is a shared library meant to be loaded on top of GTK through LD_PRELOAD.  It overrides portions of the GTK API to make desktop applications more usable in a constrained screen (a phone, usually).
+
+Examples of what the library does include:
+  * hiding menus
+  * hiding toolbars
+  * hiding status bars
+  * hiding scroll bars
+
+Of course, the functionality those widgets provide has to go somewhere.  That's on the TODO list :)
+
